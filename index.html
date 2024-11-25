@@ -1,0 +1,189 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>My Portfolio</title>
+
+    <link
+      rel="stylesheet"
+      href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css"
+    />
+
+    <style>
+      .hero {
+        background: linear-gradient(
+            rgba(145, 49, 49, 0.4),
+            rgba(33, 5, 155, 0.4)
+          ),
+          url("img.jpg") center/cover no-repeat;
+        color: white;
+        height: 20vh;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        text-align: center;
+      }
+
+      .card:hover {
+        transform: scale(1.05);
+        transition: transform 0.5s;
+      }
+
+      footer {
+        background-color: #220e7a;
+        color: #c8cfd6;
+      }
+
+      html {
+        scroll-behavior: smooth;
+      }
+    </style>
+  </head>
+  <body>
+    <nav class="navbar navbar-expand-lg navbar-light bg-light">
+      <a class="navbar-brand" href="#">My Portfolio</a>
+      <button
+        class="navbar-toggler"
+        type="button"
+        data-toggle="collapse"
+        data-target="#navbarNav"
+        aria-controls="navbarNav"
+        aria-expanded="false"
+        aria-label="Toggle navigation"
+      >
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarNav">
+        <ul class="navbar-nav ml-auto">
+          <li class="nav-item">
+            <a class="nav-link" href="#home">Home</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#about">About</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#projects">Projects</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#contact">Contact</a>
+          </li>
+        </ul>
+      </div>
+    </nav>
+
+    <header id="home" class="hero">
+      <div class="container">
+        <h1 class="display-4 fw-bold">Welcome to My Portfolio</h1>
+        <p class="lead">Discover My Work and Skills</p>
+        <a href="#projects" class="btn btn-light btn-lg mt-3">View My Work</a>
+      </div>
+    </header>
+
+    <section id="about" class="py-5 text-center">
+      <div class="container">
+        <h2>About Me</h2>
+        <img
+          src="pic.jpg"
+          class="rounded-circle"
+          alt="Cinque Terre"
+          width="200"
+          height="200"
+        />
+        <p class="lead mt-3">
+          Hi, I'm Richard G. Agbonisa. I am passionate about using technology to
+          educate, create, and inspire positive change. Welcome to my portfolio,
+          showcasing my work and journey in IT.
+        </p>
+      </div>
+    </section>
+
+    <section id="projects" class="bg-light py-5">
+      <div class="container">
+        <h2 class="text-center mb-5">Projects</h2>
+        <div class="row g-4">
+          <div class="col-md-4">
+            <div class="card h-100 shadow-sm">
+              <img src=",.png" class="card-img-top" alt="Project 1" />
+              <div class="card-body text-center">
+                <h5 class="card-title">Project 1</h5>
+                <a
+                  href="https://charddss.github.io/WEATHER-UPDATE--CHARD/"
+                  class="btn btn-primary"
+                  target="_blank"
+                  >View Project</a
+                >
+              </div>
+            </div>
+          </div>
+
+          <div class="col-md-4">
+            <div class="card h-100 shadow-sm">
+              <img src=".,.png" class="card-img-top" alt="Project 2" />
+              <div class="card-body text-center">
+                <h5 class="card-title">Project 2</h5>
+                <a
+                  href="https://charddss.github.io/agbonisa/"
+                  class="btn btn-primary"
+                  target="_blank"
+                  >View Project</a
+                >
+              </div>
+            </div>
+          </div>
+
+          <div class="col-md-4">
+            <div class="card h-100 shadow-sm">
+              <img src=",.,.png" class="card-img-top" alt="Project3" />
+              <div class="card-body text-center">
+                <h5 class="card-title">Project 3</h5>
+                <a
+                  href="https://charddss.github.io/bootstrap.3/"
+                  class="btn btn-primary"
+                  target="_blank"
+                  >View Project</a
+                >
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section id="contact" class="py-5 text-center">
+      <div class="container">
+        <h2>Contact Me</h2>
+        <p class="lead mt-3">
+          Feel free to reach out to me for any inquiries or collaboration
+          opportunities.
+        </p>
+        <p>
+          Email:
+          <a href="mailto:richardagbonisa28@gmail.com"
+            >richardagbonisa28@gmail.com</a
+          >
+        </p>
+        <p>
+          LinkedIn:
+          <a href="https://www.linkedin.com/jobs/" target="_blank"
+            >linkedin.com</a
+          >
+        </p>
+        <p>
+          Gmail:
+          <a href="mailto:richardagbonisa202300406@gmail.com"
+            >richardagbonisa202300406@gmail.com</a
+          >
+        </p>
+      </div>
+    </section>
+
+    <footer class="text-center py-4">
+      <p class="mb-0">&copy; 2024 My Portfolio. All rights reserved.</p>
+    </footer>
+
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.2/dist/umd/popper.min.js"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+  </body>
+</html>
